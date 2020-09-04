@@ -1,5 +1,5 @@
 {% set name = "nbautoexport" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,14 +8,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c573423bfdd744459840992e76f876f4484a4ad307687cd9161c0f1a588d3784
+  sha256: ca8a87ce1e3095cd7f1685a7b8de4948bc6189a85aa1f5e203f164b5c6208d78
 
 build:
   number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
-    - "nbautoexport=nbautoexport.nbautoexport:app"
+    - nbautoexport=nbautoexport.nbautoexport:app
 
 requirements:
   host:
