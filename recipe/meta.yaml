@@ -23,7 +23,7 @@ requirements:
     - python >=3.6
   run:
     - jupyter_contrib_nbextensions >=0.5.1
-    - nbconvert >=5.6.1
+    - nbconvert >=5.6.1,<6
     - packaging
     - pydantic
     - python >=3.6
