@@ -5,9 +5,13 @@ Home: https://github.com/drivendataorg/nbautoexport
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nbautoexport-feedstock/blob/master/LICENSE.txt)
 
 Summary: Automatically export Jupyter notebooks to various file formats (.py, .html, and more) on save.
+
+Development: https://github.com/drivendataorg/nbautoexport
+
+Documentation: https://nbautoexport.drivendata.org/
 
 nbautoexport automatically exports Jupyter notebooks to various file formats (.py, .html, and more)
 upon save. One great use case is to automatically have script versions of your notebooks to
