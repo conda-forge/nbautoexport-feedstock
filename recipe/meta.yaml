@@ -20,7 +20,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
     - nbconvert >=5.6.1
     - nbformat
@@ -28,7 +28,7 @@ requirements:
     - jupyter_core
     - packaging
     - pydantic
-    - python >=3.6
+    - python >=3.7
     - traitlets
     - typer >=0.3.0
 
