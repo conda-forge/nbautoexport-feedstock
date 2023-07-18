@@ -1,5 +1,5 @@
 {% set name = "nbautoexport" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 05fd7f8489be712bdd575f35a7e0be99add8d54eeea6d3028aa437940f27ad74
+  sha256: 6aee94fb05409b67cc3dae690bbf9c32d05f63a2f6fb4da9231feb6c054e836d
 
 build:
   number: 0
